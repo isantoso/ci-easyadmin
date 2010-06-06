@@ -1,0 +1,267 @@
+/* generic */
+body {
+	background-color: #fff;
+	font-family: Lucida, "Lucida Grande", Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+	margin:0px;
+}
+
+a {
+	color: #3783C0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+/* layout */
+#wrapper {
+	margin-top:0px;
+	width:930px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header{
+	border-top:3px solid #00A5F0;
+	background-color:#fff;
+	border-bottom:1px solid #00A5F0;
+}
+
+#menu {
+	float:left;
+	width:180px;
+	color:#000;
+	font-weight:bold;
+}
+
+.mainmenu {
+	border-bottom:1px solid #000;
+}
+
+#menu ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	border:0px solid #000;
+	margin-bottom:20px;
+}
+
+#menu li a {
+	display:block;
+	border-bottom:1px dotted #999;
+	height:20px;
+	line-height:18px;
+}
+
+#menu li a:hover {
+	color:#333;
+	display:block;
+	border-bottom:1px dotted #000;
+	height:20px;
+	line-height:18px;
+	text-decoration:none;
+	background-color:#ededed;
+}
+
+#content {
+	float:left;
+	margin-left:10px;
+	padding-left:5px;
+	width:730px;
+	border-left:1px dotted #ccc;
+}
+
+.clear {
+	clear:left;
+}
+
+#footer {
+	clear:left;
+	margin-top:20px;
+	color:#00A5F0;
+	border-top:3px solid #00A5F0;
+	border-bottom:1px solid #00A5F0;	
+}
+
+/* various style */
+h1 {
+	margin:0px;
+	font-size:1.3em;
+	border-bottom:1px solid #000;
+	color:#000;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+h2 {
+	font-size:14px;
+	color:#000;
+	border-bottom:1px solid #ccc;
+}
+
+/* table style */
+.contentitem {
+	border-bottom:1px dotted #ccc;
+}
+.contentitemHover {
+	border-bottom:1px solid #000;
+	background-color:#C3F3FF;
+}
+
+.tdHeading {
+	border-bottom:1px dotted #333;
+	font-weight:bold;
+	color:#333;
+	font-size:11px;
+}
+
+.tdItem {
+	border-bottom:1px dotted #ccc;
+	font-size:11px;
+}
+
+
+/* form */
+.inputBox {
+	border:1px solid #ccc;
+	font-size:16px;
+	width:250px;
+}
+
+.textBox {
+	border:1px solid #ccc;
+	font-size:16px;
+	width:250px;
+	height:80px;
+}
+
+.error {
+	color:#cc0000;
+}
+
+.formgroup {
+	border-bottom:0px solid #ccc;
+}
+
+.formgroup h3 {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color:#DBF2FE;
+	font-weight:bold;
+	font-size:1.2em;
+	padding:1px;
+}
+
+
+
+/* login box */
+.boxLogin {
+	padding:20px;
+	border:1px dotted #3783C0;
+	background-color:#fff;
+	width:440px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+
+.log {
+	font-size:0.8em;
+	color:#ccc;
+}
+
+.buttonLogin {
+	width:220px;
+	height:40px;
+	font-weight:bold;
+}
+
+.boxLogin form {
+	margin:0px;
+	padding:0px;
+}
+
+/* pagination */
+.pagination {
+	margin:10px;
+}
+
+.pagination a {
+	border:1px solid #ccc;
+	padding:5px;
+	margin-right:5px;
+	font-weight:bold;
+}
+
+.pagination .page_selected {
+	padding:5px;
+	border:1px solid #ccc;
+	background-color:#ededed;
+	margin-right:5px;
+	font-weight:bold;
+}
+
+/* box for notices and errors */
+.boxNotice {
+	border:1px solid #89C94F;
+	background-color:#D1ECB9;
+	padding:10px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.boxError {
+	border:1px solid #D893A1;
+	background-color:#FBE6F2;
+	padding:10px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:bold;
+	text-align:center;
+}
+
+.listOrderParent {
+	border:1px solid #ccc;
+	padding:5px;list-style:none;
+	margin-bottom:5px;
+	font-weight:bold;
+	width:470px;
+	background-color:#ededed;
+	color:#333;
+}
+
+.listOrderChild {
+	border:1px solid #ccc;
+	padding:5px;
+	list-style:none;
+	margin:5px;
+	width:400px;
+}
+
+/* table for viewing details */
+#tableDetail td {
+	border-bottom:1px solid #ccc;
+
+}
+
+#tableDetail .heading {
+	background-color:#ededed;
+	font-weight:bold;
+}
+
+#tableDetail .clear {
+	border-bottom:0px solid #ccc;
+}
+
+.hideFromPrint {
+	display:none;
+}

@@ -1,0 +1,79 @@
+form.webform {margin:0;padding:0;}
+
+.webform fieldset {margin:0;padding-left:10px;border:none;}
+
+.webform legend {
+	margin-top:10px;
+	margin-left:0px;
+	padding:0 0 10px;
+	background:transparent;
+	font-size:1.1em;
+	font-weight:bold;
+	border:none;
+}
+
+.webform div {
+	clear:left;
+	display:block;
+	margin-bottom:10px;
+}
+
+.webform label {
+	float:left;
+	width:200px;
+	padding:0px;
+	text-align:left;
+}
+
+.webform input {
+	border:1px solid #ccc;
+	width:220px;
+}
+
+.webform textarea {
+	border:1px solid #ccc;
+	width:220px;
+	overflow:auto;
+}
+
+.webform select {
+	border:1px solid #ccc;
+	width:220px;
+}
+
+.webform .radiolabel {
+	width:120px;
+	height:2.5em;
+	padding-right:25px;
+}
+
+.webform div.radiogroup {
+	margin-left:200px;
+}
+
+.webform div.radiogroup label {
+	clear:left;
+}
+
+.webform .button {
+	width:auto;
+}
+
+/* notice or error dialog when jquery ui disabled */
+.dialog {
+	border:1px solid #ccc;
+	background-color:#ededed;
+	padding:10px;
+	
+}
+.webform label.required {
+	
+}
+.webform label.error {
+
+}
+
+
+
+
+

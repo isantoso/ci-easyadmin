@@ -1,0 +1,1 @@
+<?php echo $this->acl->generate_menu(); ?>
