@@ -54,8 +54,9 @@ class Admin extends Controller {
 			}
 		}
 
+		$data['template_main']	= array('login');
 		$data['recaptcha_html'] = $this->recaptcha->get_html();
-		$this->load->view($this->admin_folder.'/login',$data);
+		$this->load->view($this->admin_folder.'/main',$data);
 
 	} //end function
 

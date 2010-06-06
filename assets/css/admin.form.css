@@ -18,6 +18,17 @@ form.webform {margin:0;padding:0;}
 	margin-bottom:10px;
 }
 
+.webform #recaptcha_widget_div {
+
+}
+
+.webform #recaptcha_widget_div div{
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+
 .webform label {
 	float:left;
 	width:200px;
